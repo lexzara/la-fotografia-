@@ -1,0 +1,80 @@
+h1{
+    text-align: center;
+    background-color: cornsilk;
+    size: 150px;
+}
+
+body{
+    background-color: bisque;
+    }
+    #example1 {
+background-color: cornsilk;
+}
+#menu{
+    background-color: darkgray;
+}
+
+#menu ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu ul li {
+    display: inline-block;
+}
+#menu ul li a{
+    color: #000;
+    display: block;
+    padding: 10px 93px;
+    text-decoration: none;
+}
+#menu ul li a:hover{
+    background-color: darksalmon;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 800px 240px;
+    gap: 1em;
+}
+
+.grid > div {
+    background-color: rgb(221, 205, 185);
+    padding: 1em;
+}
+
+.grid div :hover {
+    border: 1px solid coral;
+}
+
+.grod {
+    display: grid;
+    grid-template-columns:repeat(4, 1fr) ;
+    gap: 1em;
+}
+
+.grod > div {
+    background-color: rgb(221, 205, 185);
+    padding: 1em;
+}
+
+.grod div :hover {
+    border: 1px solid coral;
+}
+
+.gred {
+    display: grid;
+    grid-template-columns: 800px 240px;
+    gap: 1em;
+}
+
+.gred > div {
+    background-color: rgb(221, 205, 185);
+    padding: 1em;
+}
+
+.gred div :hover {
+    border: 1px solid coral;
+}
+
